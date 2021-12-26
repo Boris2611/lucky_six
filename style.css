@@ -116,7 +116,7 @@ p {
   }
   
   .help .popup, .help .popup2 {
-    width: 400px;
+    width: 300px;
     height: 0px;
     text-align: center;
     overflow: hidden;
@@ -127,13 +127,13 @@ p {
   }
   
   .help .popup {
-    left: -400px;
+    left: -300px;
     top: 10px;
   }
  
   .help:hover .popup {
     opacity: 1;
-    height: 270px;
+    height: 300px;
     padding: 20px;
   }
 
