@@ -57,6 +57,9 @@ function rand(){
             document.getElementById("ball34").style.backgroundColor = "yellow";
             document.getElementById("ball35").style.backgroundColor = "yellow";
 
+
+  
+
     var dobitni = [];
     var dobitniIndexi = [];
     for (var i = 0; i < 35;) {

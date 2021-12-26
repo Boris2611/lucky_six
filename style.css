@@ -9,6 +9,15 @@ h1 {
     
 }
 
+label {
+    text-shadow:1px 1px rgb(124, 124, 124);
+}
+
+.naslov {
+    margin-left: 40px;
+    text-shadow:2px 2px rgb(124, 124, 124);
+}
+
 button {
     color: green;
     background-color: greenyellow;
@@ -102,9 +111,12 @@ p {
     width: 40px;
     margin: 0 auto;
     float: right;
+    border-radius: 20px;
+    
   }
   
   .help .question {
+    box-shadow: 10px 2px 2px rgb(122, 122, 122);
     height: 40px;
     width: 40px;
     background: #ccc;
@@ -124,6 +136,8 @@ p {
     background: #eee;
     opacity: 0;
     transition: 1s;
+    box-shadow: 10px 2px 2px rgb(161, 161, 161);
+    border-radius: 10px;
   }
   
   .help .popup {
