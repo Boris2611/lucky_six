@@ -1,0 +1,113 @@
+body {
+    background-color: #999;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222;
+    
+}
+
+button {
+    color: green;
+    background-color: greenyellow;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    transition: 0.2s;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: green;
+    color: greenyellow;
+}
+
+.inline {
+    display: inline;
+    padding-right: 100px;
+    float: right;
+    padding-left: 70px ;
+}
+
+.footer {
+    color: rgb(43, 43, 43);
+    font-size: 12px;
+}
+
+.ball {
+    margin-top: 20px;
+    background-color: yellow;
+    padding: 10px;
+    padding-right: 17px;
+    margin-left: 10px;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px black solid;
+    display: inline-block;
+    text-align: center;
+    font-size: larger;
+    transition: 1s;
+}
+
+.ball:hover {
+    transform: rotate(45deg);
+}
+
+input {
+    background-color: #d1c5fc;
+    border: 1px solid rgb(114, 114, 114);
+    color: black;
+    padding: 5px 5px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-color: #ffffff;
+}
+
+p {
+    text-align: center;
+}
+
+
+#balls {
+    display: inline;
+}
+
+
+
+.phone {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .inline {
+      display: none;
+    }
+
+    .phone {
+        visibility: visible;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #form {
+        text-align: center;
+    }
+
+    #balls {
+        text-align: center;
+    }
+    button {
+        margin: 0;
+    }
+  }
