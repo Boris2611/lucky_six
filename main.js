@@ -7,6 +7,8 @@ var b = 0;
 // Button press
 function button(){
     new Audio('start.wav').play()
+
+    document.getElementById("win").innerHTML = "";
     
 
     document.getElementById("dugme2").style.visibility = "hidden";
@@ -17,7 +19,7 @@ function button(){
     rand();
 
     
-    interval = 300;
+    interval = 200;
     myInterval = setInterval(izlazi, interval);
     
 }
@@ -115,19 +117,15 @@ function rand(){
 
 
       // Win / Lose provera
-    var winlose = ""
+    
     var length = dobitni.length;
     if (length == 6) {
-        winlose = "DOBITAN"
-        document.getElementById("win").style.color= "green";
+        setTimeout(win, 7000)
     }
     else {
-        winlose = "GUBITAN"
-        document.getElementById("win").style.color= "red";
+        setTimeout(lose, 7000)
     }
 
-    // Win / Lose prikaz
-    document.getElementById("win").innerHTML = winlose
    
 
 
@@ -143,7 +141,7 @@ function rand(){
         document.getElementById(id).style.backgroundColor = "limegreen";
         y += 1
         if (length == 6) {
-            document.getElementById(id).style.backgroundColor = "green";
+            document.getElementById(id).style.backgroundColor = "limegreen";
             var dk = [];
             dk.push(dobitniIndexi[y - 1]);
         }
@@ -153,7 +151,7 @@ function rand(){
      // Racunanje dobitka
      if (length == 6) {
         dobitak = document.getElementById("ulog").value * kvota[dk];
-        setTimeout(alertt, 10060)
+        setTimeout(alertt, 7100)
     }
 
 
@@ -173,6 +171,18 @@ function rand(){
     
 }
 
+
+
+    // Win / Lose prikaz
+function win() {
+    document.getElementById("win").style.color= "green";
+    document.getElementById("win").innerHTML = "Dobitan";
+}
+
+function lose() {
+    document.getElementById("win").style.color= "red";
+    document.getElementById("win").innerHTML = "Gubitan";
+}
 // timer funkcija
 function izlazi() {
    
