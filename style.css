@@ -88,10 +88,10 @@ button:hover {
     display: inline-flex;
     text-align: center;
     font-size: larger;
-    transition: 0.5s;
     box-shadow: 10px 5px 5px rgb(117, 117, 54);
     align-items: center;
 }
+
 
 
 .other {
