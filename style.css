@@ -247,11 +247,26 @@ p {
 
     .main {
         padding-left: 0;
+        padding-top: 10px;
+    }
+    
+    .other {
+        padding-top: 10px;
     }
 
     .kvota {
         padding: 0;
-        display: none;
+        margin: 0;
+        font-size: 7px;
+    }
+
+    .ball{
+        padding: 6px;
+        padding-top: 1px;
+        margin: 1px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 12px;
     }
 
     
