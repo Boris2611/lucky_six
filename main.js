@@ -26,7 +26,6 @@ function rand(){
     for (var a = 0; a < 35;) {
     a += 1;
     idd = "ball" + a;
-    document.getElementById(idd).style.transform = "rotate(360deg)";
     document.getElementById(idd).style.backgroundColor = "yellow";
     document.getElementById(idd).style.visibility = "visible";
     
