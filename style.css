@@ -31,6 +31,8 @@ button {
     box-shadow: 10px 5px 5px rgb(25, 80, 25);
 }
 
+
+
 button:hover {
     background-color: green;
     color: greenyellow;
@@ -50,7 +52,7 @@ button:hover {
 
 .ball {
     margin-top: 20px;
-    background-color: yellow;
+    background-color: rgb(71, 71, 0);
     padding: 10px;
     padding-right: 17px;
     margin-left: 10px;
@@ -63,10 +65,14 @@ button:hover {
     font-size: larger;
     transition: 0.5s;
     box-shadow: 10px 5px 5px rgb(117, 117, 54);
+    visibility: hidden;
 }
 
+
+
+
 .ball:hover {
-    transform: rotate(45deg);
+    transform: rotate(360deg);
 }
 
 input {
@@ -89,9 +95,7 @@ p {
 }
 
 
-#balls {
-    display: inline;
-}
+
 
 
 

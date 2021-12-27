@@ -21,44 +21,17 @@ function rand(){
             30, 25, 20, 15, 10, 9, 8, 7, 6, 5, 4,
             3, 2, 1]
 
-            document.getElementById("ball1").style.backgroundColor = "yellow";
-            document.getElementById("ball2").style.backgroundColor = "yellow";
-            document.getElementById("ball3").style.backgroundColor = "yellow";
-            document.getElementById("ball4").style.backgroundColor = "yellow";
-            document.getElementById("ball5").style.backgroundColor = "yellow";
-            document.getElementById("ball6").style.backgroundColor = "yellow";
-            document.getElementById("ball7").style.backgroundColor = "yellow";
-            document.getElementById("ball8").style.backgroundColor = "yellow";
-            document.getElementById("ball9").style.backgroundColor = "yellow";
-            document.getElementById("ball10").style.backgroundColor = "yellow";
-            document.getElementById("ball11").style.backgroundColor = "yellow";
-            document.getElementById("ball12").style.backgroundColor = "yellow";
-            document.getElementById("ball13").style.backgroundColor = "yellow";
-            document.getElementById("ball14").style.backgroundColor = "yellow";
-            document.getElementById("ball15").style.backgroundColor = "yellow";
-            document.getElementById("ball16").style.backgroundColor = "yellow";
-            document.getElementById("ball17").style.backgroundColor = "yellow";
-            document.getElementById("ball18").style.backgroundColor = "yellow";
-            document.getElementById("ball19").style.backgroundColor = "yellow";
-            document.getElementById("ball20").style.backgroundColor = "yellow";
-            document.getElementById("ball21").style.backgroundColor = "yellow";
-            document.getElementById("ball22").style.backgroundColor = "yellow";
-            document.getElementById("ball23").style.backgroundColor = "yellow";
-            document.getElementById("ball24").style.backgroundColor = "yellow";
-            document.getElementById("ball25").style.backgroundColor = "yellow";
-            document.getElementById("ball26").style.backgroundColor = "yellow";
-            document.getElementById("ball27").style.backgroundColor = "yellow";
-            document.getElementById("ball28").style.backgroundColor = "yellow";
-            document.getElementById("ball29").style.backgroundColor = "yellow";
-            document.getElementById("ball30").style.backgroundColor = "yellow";
-            document.getElementById("ball31").style.backgroundColor = "yellow";
-            document.getElementById("ball32").style.backgroundColor = "yellow";
-            document.getElementById("ball33").style.backgroundColor = "yellow";
-            document.getElementById("ball34").style.backgroundColor = "yellow";
-            document.getElementById("ball35").style.backgroundColor = "yellow";
 
+    // Vraca boju nazad u zutu pri pocetku svake igre
+    for (var a = 0; a < 35;) {
+    a += 1;
+    idd = "ball" + a;
+    document.getElementById(idd).style.backgroundColor = "yellow";
+    document.getElementById(idd).style.visibility = "visible", 1000;
+    }
 
-  
+            
+
 
     var dobitni = [];
     var dobitniIndexi = [];
