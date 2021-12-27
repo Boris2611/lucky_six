@@ -27,7 +27,7 @@ function rand(){
     a += 1;
     idd = "ball" + a;
     document.getElementById(idd).style.backgroundColor = "yellow";
-    document.getElementById(idd).style.visibility = "visible";
+    
     
     }
 

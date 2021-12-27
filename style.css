@@ -9,6 +9,9 @@ h1 {
     
 }
 
+
+
+
 label {
     text-shadow:1px 1px rgb(124, 124, 124);
 }
@@ -18,20 +21,38 @@ label {
     text-shadow:2px 2px rgb(124, 124, 124);
 }
 
-button {
+.button {
     color: green;
     background-color: greenyellow;
     width: 100px;
     height: 50px;
     font-size: large;
     transition: 0.2s;
-    margin-left: 100px;
+
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 10px 5px 5px rgb(25, 80, 25);
 }
 
+.b2 {
+    
+    color: green;
+    background-color: greenyellow;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(25, 80, 25);
+}
 
+.dugme {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+}
 
 button:hover {
     background-color: green;
@@ -45,6 +66,10 @@ button:hover {
     padding-left: 70px ;
 }
 
+#win {
+    margin-left: 20px;
+}
+
 .footer {
     color: rgb(43, 43, 43);
     font-size: 12px;
@@ -55,20 +80,60 @@ button:hover {
     background-color: rgb(71, 71, 0);
     padding: 10px;
     padding-right: 17px;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 20px;
     height: 25px;
     border-radius: 50%;
     border: 1px black solid;
-    display: inline-block;
+    display: inline-flex;
     text-align: center;
     font-size: larger;
     transition: 0.5s;
     box-shadow: 10px 5px 5px rgb(117, 117, 54);
-    visibility: hidden;
+    align-items: center;
 }
 
 
+.other {
+    background-color: rgb(148, 148, 148);
+    border-radius: 20px;
+    width: 100%;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+
+.main  {
+    background-color: rgb(148, 148, 148);
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+#ball1, #ball2, #ball3, #ball4, #ball5 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#ball2, #ball4 {
+    margin-bottom: 20px;
+}
+
+#ball3 {
+    margin-bottom: 30px;
+}
+
+.kvota {
+    display: inline;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+}
 
 
 .ball:hover {
@@ -104,6 +169,7 @@ p {
     margin: 0;
     padding: 0;
 }
+
 
 
 p {
@@ -178,6 +244,17 @@ p {
         padding-top: 20px;
         text-align: center;
     }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .kvota {
+        padding: 0;
+        display: none;
+    }
+
+    
 
     #form {
         text-align: center;
