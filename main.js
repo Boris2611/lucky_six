@@ -148,12 +148,13 @@ function rand(){
     }
 
 
-     // Racunanje dobitka
+     // Racunanje dobitka  
      if (length == 6) {
         dobitak = document.getElementById("ulog").value * kvota[dk];
-        setTimeout(alertt, 7100)
+        setTimeout(alertt, 7200)
     }
 
+    
 
     function alertt() {
         new Audio('win.wav').play()
@@ -161,7 +162,16 @@ function rand(){
         
     }
 
-    balance = balance + dobitak
+  
+    setTimeout(novac, 7000)
+
+    function novac() {
+        balance = balance + dobitak
+        document.getElementById("winn").innerHTML ="Novac: " + balance;
+        document.getElementById("winn2").innerHTML ="Novac: " + balance;
+        
+    }
+    
     xxx = 0
     // Prikaz novca za PC i telefon
     document.getElementById("winn").innerHTML ="Novac: " + balance;
