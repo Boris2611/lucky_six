@@ -14,7 +14,7 @@ function button(){
     document.getElementById("dugme2").style.visibility = "hidden";
 
   
-
+    
     // Zove glavnu funkciju
     rand();
 
@@ -23,6 +23,8 @@ function button(){
     myInterval = setInterval(izlazi, interval);
     
 }
+
+
 
 function stopInterval() {
     clearInterval(myInterval);
