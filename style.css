@@ -1,6 +1,6 @@
 body {
     background-color: rgb(175, 175, 175);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -180,7 +180,7 @@ p {
 .help {
     width: 40px;
     margin: 0 auto;
-    float: left;
+    float: right;
     border-radius: 20px;
     
   }
@@ -212,7 +212,7 @@ p {
   }
   
   .help .popup {
-    left: 60px;
+    right: 60px;
     top: 60px;
   }
  
@@ -282,4 +282,12 @@ p {
     button {
         margin: 0;
     }
+
+    .help {
+        float: left;
+    }
+
+    .help .popup {
+        left: 60px;
+      }
   }
